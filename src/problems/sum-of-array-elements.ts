@@ -1,0 +1,1 @@
+export const sumOfArrayElements = (arr: number[]): number => arr.reduce((acc, curr) => acc + curr);
