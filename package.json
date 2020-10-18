@@ -11,7 +11,7 @@
   "keywords": [],
   "scripts": {
     "build": "yarn run compile",
-    "test": "jest --coverage",
+    "test": "jest",
     "compile": "tsc -p .",
     "pretty": "prettier --write --tab-width 2 src/**/*.{ts,tsx}"
   },
