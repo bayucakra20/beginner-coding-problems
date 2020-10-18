@@ -1,6 +1,6 @@
 import { calculateAge } from './calculate-age';
 
-describe('Calculate Age', () => {
+describe('calculate-age', () => {
   test('should return age 30 from 1990 to 2020', () => {
     const userObj = {
       firstName: 'John',
