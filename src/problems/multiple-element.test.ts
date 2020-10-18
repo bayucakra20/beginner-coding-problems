@@ -6,8 +6,6 @@ describe('multiple-element', () => {
 
     const result = multipleElement(input);
 
-    expect(result).toEqual(
-      expect.arrayContaining([16, 100, 2500, 10000])
-    );
+    expect(result).toEqual([16, 100, 2500, 10000]);
   });
 });
