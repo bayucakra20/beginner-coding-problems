@@ -1,0 +1,1 @@
+export const firstElementInArray = (arr: string[]) => arr[0]; 
