@@ -1,0 +1,1 @@
+export const filterArray = (arr: string[]) => arr.filter(el => el.includes("apple"));
